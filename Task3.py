@@ -61,7 +61,7 @@ for call in calls:
             area_code = number.split(')')[0][1:]
             called_codes.add(area_code)
         elif ' ' in number: # mobile number
-            prefix = number.split(' ')[0]
+            prefix = number[0:4]
             called_codes.add(prefix)
         elif number.startswith('140'):
             called_codes.add('140')
