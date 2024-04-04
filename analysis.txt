@@ -1,0 +1,23 @@
+Task 0:
+- Time complexity: O(1)
+- Accessing an element by its index takes constant time, which means Big O is O(1)
+
+Task 1:
+- Time complexity: O(n)
+- There are two seperate for-loop, each one iterating from 1 to n, so the time complexity is O(2n),
+- by dropping the constant, the time complexity is O(n)
+
+Task 2:
+- Time complexity: O(n)
+- The for-loop iterates through all the calls, so the time complexity is O(n)
+
+Task 3:
+- Time complexity: O(n log n)
+- The for-loop iterates through all the calls, so the time complexity is O(n)
+- The sorting of the called_codes takes O(n log n) time complexity
+- The overall time complexity is O(n log n)
+
+Task 4:
+- Time complexity: O(n log n)
+- The for-loops iterate through all the texts and calls, so the time complexity is O(n) (by dropping the constant)
+- The sorting of the list of numbers takes O(n log n) time, so the overall time complexity is O(n log n)
